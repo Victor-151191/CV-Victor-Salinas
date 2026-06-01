@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 'Roboto', sans-serif; /* <-- AQUÍ CAMBIAMOS TU FUENTE ANTERIOR */
 margin: 0;
 background-color: #f0f2f5;
 color: #333;
@@ -157,4 +159,13 @@ background-color: #005f99;
     display: flex;
     flex-wrap: wrap; /* Si no caben, se bajan solas */
     gap: 15px;       /* Separa los cuadritos entre sí */
+}
+
+.section-habilidades span {
+    background-color: #007acc;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
