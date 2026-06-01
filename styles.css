@@ -152,3 +152,9 @@ background-color: #005f99;
     margin: 0 auto;   /* Centra automáticamente todo el bloque en la pantalla */
     padding: 20px;    /* Despega el texto de los bordes */
 }
+
+.section-habilidades {
+    display: flex;
+    flex-wrap: wrap; /* Si no caben, se bajan solas */
+    gap: 15px;       /* Separa los cuadritos entre sí */
+}
