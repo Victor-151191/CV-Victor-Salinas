@@ -146,3 +146,9 @@ cursor: pointer;
 form button:hover {
 background-color: #005f99;
 }
+
+.contenedor-principal {
+    max-width: 800px; /* Evita que se estire infinito en pantallas gigantes */
+    margin: 0 auto;   /* Centra automáticamente todo el bloque en la pantalla */
+    padding: 20px;    /* Despega el texto de los bordes */
+}
